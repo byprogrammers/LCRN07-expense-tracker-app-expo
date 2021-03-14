@@ -668,7 +668,7 @@ const Home = () => {
                             innerRadius={70}
                             labelRadius={({ innerRadius }) => (SIZES.width * 0.4 + innerRadius) / 2.5}
                             style={{
-                                labels: { fill: "white", ...FONTS.body3 },
+                                labels: { fill: "white" },
                                 parent: {
                                     ...styles.shadow
                                 },
